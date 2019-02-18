@@ -4,7 +4,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    #init: true
     volumes:
       - type: bind
         source: .
