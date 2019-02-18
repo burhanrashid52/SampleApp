@@ -9,3 +9,4 @@ services:
       - type: bind
         source: .
         target: /sampleapp/app/build/outputs/apk/debug
+    command: /sampleapp/start.sh
