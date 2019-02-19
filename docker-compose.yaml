@@ -8,5 +8,5 @@ services:
     volumes:
       - type: bind
         source: .
-        target: /sampleapp/app/build/outputs/apk/debug
+        target: /sampleapp
     command: /sampleapp/start.sh
