@@ -9,4 +9,4 @@ services:
       - type: bind
         source: .
         target: /sampleapp
-    command: /bin/bash -c "chmod a+x /sampleapp/start.sh && /sampleapp/start.sh"
+    command: /sampleapp/start.sh
