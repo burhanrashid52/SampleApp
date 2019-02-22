@@ -3,7 +3,7 @@ services:
   sampleapp:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: SampleDockerFile
     image: sampleapp:assembledebug
     volumes:
       - type: bind
